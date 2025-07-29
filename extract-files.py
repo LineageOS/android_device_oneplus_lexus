@@ -75,7 +75,6 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('rpcmem_free')
         .clear_symbol_version('rpcmem_to_fd'),
     (
-        'vendor/bin/hw/vendor.qti.hardware.display.composer-service',
         'vendor/lib64/libdpps.so',
         'vendor/lib64/libsnapdragoncolor-manager.so',
     ): blob_fixup()
