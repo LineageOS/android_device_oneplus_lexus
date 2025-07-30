@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set_bool,qtidisplay,legacy_cwb_config,true)
 
+# Fingerprint
+$(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0-service \
