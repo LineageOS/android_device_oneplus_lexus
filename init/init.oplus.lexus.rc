@@ -1,0 +1,8 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on property:persist.vendor.fingerprint.optical.sensorlocation=736::2670
+    setprop persist.vendor.fingerprint.optical.sensorlocation 636::2565
