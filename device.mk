@@ -26,10 +26,6 @@ PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0-service \
     hwservicemanager
 
-# Init
-PRODUCT_PACKAGES += \
-    init.oplus.lexus.rc
-
 # LiveDisplay
 $(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
 
