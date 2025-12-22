@@ -21,6 +21,11 @@ TARGET_SCREEN_WIDTH := 1272
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946292893219971.xml
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0-service \
+    hwservicemanager
+
 # LiveDisplay
 $(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
 
@@ -41,6 +46,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/24881/build.IN.prop \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/24881/build.ROW.prop \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24881/build.default.prop
+
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 35
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
