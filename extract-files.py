@@ -31,14 +31,12 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
-        'com.qti.sensor.s5k3p9',
         'libhwconfigurationutil',
         'libPanelChaplin',
         'libpwirisfeature',
         'libpwirishalwrapper',
         'vendor.oplus.hardware.camera_rfi-V1-ndk',
         'vendor.oplus.hardware.cammidasservice-V1-ndk',
-        'vendor.oplus.hardware.displaycolorfeature-V1-ndk',
         'vendor.pixelworks.hardware.display@1.0',
         'vendor.pixelworks.hardware.display@1.1',
         'vendor.pixelworks.hardware.display@1.2',
@@ -55,7 +53,7 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V6-ndk.so'),
     ('odm/lib64/libCOppLceTonemapAPI.so', 'odm/lib64/libSuperRaw.so', 'odm/lib64/libYTCommon.so', 'odm/lib64/libyuv2.so'): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
-    ('odm/lib64/libHIS.so', 'odm/lib64/libOGLManager.so', 'odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so', 'odm/lib64/libOPAlgoCamFaceBeautyCap.so'): blob_fixup()
+    ('odm/lib64/libEIS.so', 'odm/lib64/libHIS.so', 'odm/lib64/libOGLManager.so', 'odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so', 'odm/lib64/libOPAlgoCamAiUnifySkin.so', 'odm/lib64/libOPAlgoCamFaceBeautyCap.so'): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_acquire')
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
@@ -63,12 +61,15 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_lockPlanes')
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock'),
-    'odm/lib64/libarcsoft_high_dynamic_range_v4.so': blob_fixup()
+    ('odm/lib64/libarcsoft_high_dynamic_range_v4.so', 'odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so'): blob_fixup()
         .clear_symbol_version('remote_handle_close')
         .clear_symbol_version('remote_handle_invoke')
         .clear_symbol_version('remote_handle_open')
         .clear_symbol_version('remote_register_buf_attr')
-        .clear_symbol_version('remote_register_buf'),
+        .clear_symbol_version('remote_register_buf')
+        .clear_symbol_version('rpcmem_alloc')
+        .clear_symbol_version('rpcmem_free')
+        .clear_symbol_version('rpcmem_to_fd'),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'vendor/etc/libnfc-nxp.conf': blob_fixup()
