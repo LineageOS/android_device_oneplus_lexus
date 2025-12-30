@@ -1820,6 +1820,10 @@ odm/firmware/ufs/SKhynix-HN8T15DEHKX075.bin
 odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 odm/firmware/ufs/ufs_version_config.xml
 
+# Vibrator - from OnePlus 12 (CPH2573_16.0.2.400(EX01))
+odm/etc/aac_richtap.config|f3e17a5e333ef10af8be3dc0f1ddb889e133c05d
+odm/lib64/libaacvibrator.so:vendor/lib64/libaacvibrator.so|75c4af92d9a1953b37ba1d9a69972fd5a2709a2d
+
 # Vibrator firmware
 odm/firmware/aw8697_haptic.bin
 odm/firmware/aw8697_haptic_170.bin
