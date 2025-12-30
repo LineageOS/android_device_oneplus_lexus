@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 $(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
+$(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_AF,true)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
