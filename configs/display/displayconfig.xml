@@ -2,13 +2,13 @@
 <displayConfiguration>
     <densityMapping>
         <density>
-            <height>2414</height>
+            <height>2378</height>
             <width>1080</width>
             <density>480</density>
         </density>
         <density>
-            <height>2772</height>
-            <width>1240</width>
+            <height>2800</height>
+            <width>1272</width>
             <density>560</density>
         </density>
     </densityMapping>
