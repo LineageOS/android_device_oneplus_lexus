@@ -26,13 +26,24 @@
         <point>100,-9600</point>
     </reference>
     <!-- #ifndef OPLUS_BUG_STABILITY
-    // Liang.Xu@PSW.MM.AudioServer.Policy, 2020/03/19, Add for voice volume -->
+    //YaJun.Li@MM.AudioServer.Policy, 2019/08/21,Add for voice volume -->
     <reference name="DEFAULT_VOICE_VOLUME_CURVE">
     <!-- Default Voice reference Volume Curve -->
-        <point>0,-4200</point>
-        <point>33,-2800</point>
-        <point>66,-1400</point>
-        <point>100,0</point>
+        <point>0,-5400</point>
+        <point>10,-4700</point>
+        <point>20,-4200</point>
+        <point>30,-3800</point>
+        <point>40,-3400</point>
+        <point>50,-3000</point>
+        <point>60,-2600</point>
+        <point>70,-2200</point>
+        <point>80,-1800</point>
+        <point>90,-1500</point>
+        <point>100,-1200</point>
+        <point>110,-900</point>
+        <point>120,-600</point>
+        <point>130,-300</point>
+        <point>140,0</point>
     </reference>
     <!-- #endif OPLUS_BUG_STABILITY -->
     <reference name="DEFAULT_SYSTEM_VOLUME_CURVE">
@@ -52,89 +63,82 @@
         <point>120,-1000</point>
         <point>130,-800</point>
         <point>140,-600</point>
-        <point>150,-300</point>
-        <point>160,0</point>
+        <point>150,-400</point>
+        <point>160,-200</point>
     </reference>
     <reference name="DEFAULT_MEDIA_VOLUME_CURVE">
     <!-- Default Media reference Volume Curve -->
     <!-- #ifndef OPLUS_BUG_STABILITY
-    // Liang.Xu@PSW.MM.AudioServer.Policy, 2020/03/19,
-    // Modify for headset music min and default volume
+    //YaJun.Li@PSW.MM.AudioServer.Policy, 2019/08/21
+    //Modify for headset music min and default volume
         <point>1,-5800</point>
         <point>20,-4000</point>
         <point>60,-1700</point>
         <point>100,0</point>
     #else /* OPLUS_BUG_STABILITY */ -->
         <point>1,-7000</point>
-        <point>10,-6300</point>
-        <point>20,-5800</point>
-        <point>30,-5300</point>
-        <point>40,-4800</point>
-        <point>50,-4300</point>
-        <point>60,-3800</point>
-        <point>70,-3400</point>
-        <point>80,-3000</point>
-        <point>90,-2600</point>
-        <point>100,-2200</point>
-        <point>110,-1800</point>
-        <point>120,-1400</point>
-        <point>130,-1000</point>
-        <point>140,-700</point>
-        <point>150,-400</point>
-        <point>160,-100</point>
+        <point>5,-6300</point>
+        <point>10,-5800</point>
+        <point>15,-5300</point>
+        <point>20,-4800</point>
+        <point>25,-4300</point>
+        <point>30,-3800</point>
+        <point>35,-3400</point>
+        <point>40,-3000</point>
+        <point>45,-2600</point>
+        <point>50,-2200</point>
+        <point>55,-1800</point>
+        <point>60,-1400</point>
+        <point>65,-1000</point>
+        <point>70,-700</point>
+        <point>75,-400</point>
+        <point>80,-100</point>
     <!-- #endif /* OPLUS_BUG_STABILITY */ -->
     </reference>
     <!-- #ifdef OPLUS_BUG_STABILITY
-    // Liang.Xu@PSW.MM.AudioServer.Policy, 2020/03/19, add USB_HEADSET device category for tuning separately -->
+    //Qinhui.Gu@PSW.MM.AudioServer.Policy, 2019/12/11, add USB_HEADSET device category for tuning separately -->
     <reference name="DEFAULT_MEDIA_VOLUME_CURVE_USB_HEADSET">
     <!-- USB_HEADSET Media reference Volume Curve -->
-        <point>1,-7000</point>
-        <point>10,-6200</point>
-        <point>20,-5700</point>
-        <point>30,-5200</point>
-        <point>40,-4700</point>
-        <point>50,-4300</point>
-        <point>60,-3900</point>
-        <point>70,-3500</point>
-        <point>80,-3100</point>
-        <point>90,-2700</point>
-        <point>100,-2300</point>
-        <point>110,-1900</point>
-        <point>120,-1500</point>
-        <point>130,-1100</point>
-        <point>140,-700</point>
-        <point>150,-400</point>
-        <point>160,-100</point>
+    <!-- Copy Default,Music,USB Volume Curve from MTK -->
+        <point>1,-6400</point>
+        <point>5,-6200</point>
+        <point>10,-5700</point>
+        <point>15,-5200</point>
+        <point>20,-4700</point>
+        <point>25,-4300</point>
+        <point>30,-3900</point>
+        <point>35,-3500</point>
+        <point>40,-3100</point>
+        <point>45,-2700</point>
+        <point>50,-2300</point>
+        <point>55,-1900</point>
+        <point>60,-1500</point>
+        <point>65,-1100</point>
+        <point>70,-700</point>
+        <point>75,-400</point>
+        <point>80,-200</point>
     </reference>
     <!-- #endif /* OPLUS_BUG_STABILITY */ -->
     <reference name="DEFAULT_MEDIA_VOLUME_CURVE_A2DP">
-    <!-- Default Media reference Volume Curve -->
-    <!-- #ifndef OPLUS_BUG_STABILITY
-    // Liang.Xu@PSW.MM.AudioServer.Policy, 2020/03/19,
-    // Modify for bluetooth headset music min and default volume
-        <point>1,-5800</point>
-        <point>20,-4000</point>
-        <point>60,-1700</point>
-        <point>100,0</point>
-    #else /* OPLUS_BUG_STABILITY */ -->
-        <point>1,-7000</point>
-        <point>10,-5500</point>
-        <point>20,-5100</point>
-        <point>30,-4700</point>
-        <point>40,-4300</point>
-        <point>50,-3900</point>
-        <point>60,-3500</point>
-        <point>70,-3200</point>
-        <point>80,-2900</point>
-        <point>90,-2600</point>
-        <point>100,-2300</point>
-        <point>110,-1900</point>
-        <point>120,-1500</point>
-        <point>130,-1100</point>
-        <point>140,-700</point>
-        <point>150,-400</point>
-        <point>160,-100</point>
-    <!-- #endif /* OPLUS_BUG_STABILITY */ -->
+    <!-- A2DP Media reference Volume Curve -->
+    <!-- Copy Default,Music,BT_A2DP Volume Curve from MTK -->
+        <point>1,-6400</point>
+        <point>5,-5500</point>
+        <point>10,-5100</point>
+        <point>15,-4700</point>
+        <point>20,-4300</point>
+        <point>25,-3900</point>
+        <point>30,-3500</point>
+        <point>35,-3200</point>
+        <point>40,-2900</point>
+        <point>45,-2600</point>
+        <point>50,-2300</point>
+        <point>55,-1900</point>
+        <point>60,-1500</point>
+        <point>65,-1100</point>
+        <point>70,-700</point>
+        <point>75,-400</point>
+        <point>80,-200</point>
     </reference>
     <reference name="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE">
     <!--Default Volume Curve -->
@@ -146,29 +150,29 @@
     <reference name="DEFAULT_DEVICE_CATEGORY_SPEAKER_VOLUME_CURVE">
     <!-- Default is Speaker Media Volume Curve -->
     <!-- #ifndef OPLUS_BUG_STABILITY
-    // Liang.Xu@PSW.MM.AudioServer.Policy, 2020/03/19,
-    // Modify for speaker music default volume
+    //YaJun.Li@PSW.MM.AudioServer.Policy, 2019/08/21
+    //Modify for speaker music default volume for 19065
         <point>1,-5800</point>
         <point>20,-4000</point>
         <point>60,-1700</point>
         <point>100,0</point>
     #else /* OPLUS_BUG_STABILITY */ -->
-        <point>1,-6000</point>
-        <point>10,-5650</point>
-        <point>20,-5000</point>
-        <point>30,-4200</point>
-        <point>40,-3650</point>
-        <point>50,-3250</point>
-        <point>60,-2900</point>
-        <point>70,-2600</point>
-        <point>80,-2300</point>
-        <point>90,-2000</point>
-        <point>100,-1700</point>
-        <point>110,-1500</point>
-        <point>120,-1250</point>
-        <point>130,-1000</point>
-        <point>140,-800</point>
-        <point>150,-400</point>
+        <point>1,-7000</point>
+        <point>10,-5500</point>
+        <point>20,-4500</point>
+        <point>30,-3750</point>
+        <point>40,-3200</point>
+        <point>50,-2800</point>
+        <point>60,-2500</point>
+        <point>70,-2150</point>
+        <point>80,-1850</point>
+        <point>90,-1650</point>
+        <point>100,-1450</point>
+        <point>110,-1150</point>
+        <point>120,-900</point>
+        <point>130,-700</point>
+        <point>140,-500</point>
+        <point>150,-250</point>
         <point>160,0</point>
     <!-- #endif /* OPLUS_BUG_STABILITY */ -->
     </reference>
