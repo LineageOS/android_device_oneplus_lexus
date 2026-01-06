@@ -52,6 +52,24 @@
       "parentUuid": "01243022_8924a281",
       "revId": "3f63d81616204cf3d83d7d271e51a7f6caa96250",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b474537_e46106d7",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1823,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-01-06T14:21:58Z",
+      "side": 1,
+      "message": "Well, it’s only looking for this firmware, which is a modified Qualcomm bin. The rest are oplus specific bins that aren’t used in AOSP, so I don’t think keeping them will cause any issues.",
+      "parentUuid": "b6dc5962_326bf886",
+      "revId": "3f63d81616204cf3d83d7d271e51a7f6caa96250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
