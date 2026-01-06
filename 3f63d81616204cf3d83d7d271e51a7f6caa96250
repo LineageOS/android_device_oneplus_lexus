@@ -70,6 +70,24 @@
       "parentUuid": "b6dc5962_326bf886",
       "revId": "3f63d81616204cf3d83d7d271e51a7f6caa96250",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e87b6928_5cedf51e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1823,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2026-01-06T14:26:24Z",
+      "side": 1,
+      "message": "Fine if it stops logspam by haptic_hv.",
+      "parentUuid": "4b474537_e46106d7",
+      "revId": "3f63d81616204cf3d83d7d271e51a7f6caa96250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
