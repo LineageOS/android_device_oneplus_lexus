@@ -16,6 +16,24 @@
       "message": "Not needed.",
       "revId": "3f63d81616204cf3d83d7d271e51a7f6caa96250",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01243022_8924a281",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1823,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-01-06T14:14:47Z",
+      "side": 1,
+      "message": "Huh, here it is looking for it\n`I [haptic_hv]ram_update: 170Hz haptic bin name aw8697_haptic_170.bin\nW haptic_hv 8-005a: loading /vendor/firmware_mnt/image/aw8697_haptic_170.bin failed with error -13\nW haptic_hv 8-005a: loading /vendor/firmware_mnt/image/kiwi/aw8697_haptic_170.bin failed with error -13\nW haptic_hv 8-005a: Direct firmware load for aw8697_haptic_170.bin failed with error -2\nW haptic_hv 8-005a: Falling back to sysfs fallback for: aw8697_haptic_170.bin`",
+      "parentUuid": "03679c7d_724b033b",
+      "revId": "3f63d81616204cf3d83d7d271e51a7f6caa96250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
