@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bd218b8_926adbe1",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-01-07T04:41:32Z",
+      "side": 1,
+      "message": "@grepfox@tutamail.com remember don\u0027t add camera releated license.",
+      "revId": "5d708dcd72fbf077e78d6c3ad58e4b87d4fbbdaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
