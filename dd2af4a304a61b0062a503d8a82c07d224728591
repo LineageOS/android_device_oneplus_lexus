@@ -16,6 +16,24 @@
       "message": "enable displaying trailing whitespaces in your text editor...or use git add -p",
       "revId": "dd2af4a304a61b0062a503d8a82c07d224728591",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6c514ba_f5171268",
+        "filename": "overlay/OPlusSettingsResTarget/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-01-07T15:34:46Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "36010900_c5cf4c2f",
+      "revId": "dd2af4a304a61b0062a503d8a82c07d224728591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
