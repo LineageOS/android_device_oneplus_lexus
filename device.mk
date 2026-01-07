@@ -38,7 +38,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    OPlusFrameworksResTarget \
+    OPlusFrameworksResTarget_EU \
+    OPlusFrameworksResTarget_IN \
+    OPlusFrameworksResTarget_ROW \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
