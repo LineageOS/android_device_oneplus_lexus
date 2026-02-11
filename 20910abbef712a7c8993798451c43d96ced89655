@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25d1a068_47130444",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-02-11T18:05:03Z",
+      "side": 1,
+      "message": "You should do similar like this I6f42592bb7c2b7634459efc1a697305c125f0324.",
+      "revId": "20910abbef712a7c8993798451c43d96ced89655",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
