@@ -34,6 +34,24 @@
       "parentUuid": "25d1a068_47130444",
       "revId": "20910abbef712a7c8993798451c43d96ced89655",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9838a1b_41726ced",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2026-02-15T21:09:42Z",
+      "side": 1,
+      "message": "...this means also redoing the change with proper change ID and authorship",
+      "parentUuid": "2182a9de_3e5e861e",
+      "revId": "20910abbef712a7c8993798451c43d96ced89655",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
