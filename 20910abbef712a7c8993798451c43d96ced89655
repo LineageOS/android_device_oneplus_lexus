@@ -16,6 +16,24 @@
       "message": "You should do similar like this I6f42592bb7c2b7634459efc1a697305c125f0324.",
       "revId": "20910abbef712a7c8993798451c43d96ced89655",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2182a9de_3e5e861e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-02-15T18:11:21Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "25d1a068_47130444",
+      "revId": "20910abbef712a7c8993798451c43d96ced89655",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
