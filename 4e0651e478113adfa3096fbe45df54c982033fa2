@@ -33,6 +33,24 @@
       "message": "You mean the wrong change.",
       "revId": "4e0651e478113adfa3096fbe45df54c982033fa2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecda846c_644e238a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-02-16T18:04:52Z",
+      "side": 1,
+      "message": "yes done in https://review.lineageos.org/c/LineageOS/android_device_oneplus_lexus/+/474517",
+      "parentUuid": "03a05593_ad2aadd0",
+      "revId": "4e0651e478113adfa3096fbe45df54c982033fa2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
