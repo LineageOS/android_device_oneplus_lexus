@@ -1551,7 +1551,6 @@ odm/etc/PanelChaplin/Lut3D_312
 odm/etc/PanelChaplin/panelchaplin
 odm/etc/vintf/manifest/vintf_manifext_aidl_panelchaplin.xml
 odm/lib64/libPanelChaplin.so
-odm/lib64/vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform.so
 vendor/lib64/libPanelChaplin.so;MODULE_SUFFIX=_vendor
 
 # Display (Pixelworks)
