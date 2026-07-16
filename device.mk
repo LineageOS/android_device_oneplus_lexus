@@ -16,6 +16,12 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2800
 TARGET_SCREEN_WIDTH := 1272
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.frameworks.cameraservice.common-V1-ndk.vendor \
+    android.frameworks.cameraservice.device-V1-ndk.vendor \
+    android.frameworks.cameraservice.service-V1-ndk.vendor
+
 # Display
 PRODUCT_PACKAGES += \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk.vendor
