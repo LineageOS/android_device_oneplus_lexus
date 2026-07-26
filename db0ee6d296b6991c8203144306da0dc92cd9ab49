@@ -16,6 +16,24 @@
       "message": "Di you try to understand why this is needed and not automatically pulled?",
       "revId": "db0ee6d296b6991c8203144306da0dc92cd9ab49",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7e1638b_ee372a8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-07-26T13:56:18Z",
+      "side": 1,
+      "message": "start reading from https://discord.com/channels/628008280605589549/628012202535944219/1530624651334783137",
+      "parentUuid": "f13a1f55_87435026",
+      "revId": "db0ee6d296b6991c8203144306da0dc92cd9ab49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
