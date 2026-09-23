@@ -705,7 +705,6 @@ vendor/lib64/libdpp_manager.so
 vendor/lib64/libdpps.so
 vendor/lib64/libdtlm.so
 vendor/lib64/libgame_enhance.so
-vendor/lib64/libhwcsensor.so
 vendor/lib64/libmemutils.so
 vendor/lib64/libqdcm-algo.so
 vendor/lib64/libqdcm-json-mode-parser.so
@@ -964,14 +963,12 @@ odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
 odm/bin/hw/vendor.oplus.hardware.displaypanelfeature-service
 odm/bin/cwb_utils_aidl
 odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc
-odm/etc/vintf/manifest/manifest_oplus_cwb_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature_aidl.xml
 odm/lib64/libdisplayaidlapis.so
 odm/lib64/libdpaservice.so
 vendor/etc/2025-03-17_platform_RSA_SM8635_license_a6f644da-0221-4cb4-ab44-a7d8397b3d13.pfm
 vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm
 vendor/lib64/libcwb_client_vendor.so
-vendor/lib64/libcwb_qcom_aidl.so
 
 # Sensors
 vendor/lib64/sensors.qsh.so
