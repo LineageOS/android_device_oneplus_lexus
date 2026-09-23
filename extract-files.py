@@ -85,8 +85,6 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/libnfc-nxp.conf': blob_fixup()
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
-    'vendor/lib64/libcwb_qcom_aidl.so': blob_fixup()
-        .add_needed('libui_shim.so'),
     'vendor/lib64/hw/camera.qcom.sm8650.so': blob_fixup()
         .binary_regex_replace(b'\x01\x14\x00\x54\xe6\xa7\x41\xb9\xe6\x14\x00\x34\xfb\xdb\x40\xf9', b'\x01\x14\x00\x54\xe6\xa7\x41\xb9\xa7\x00\x00\x14\xfb\xdb\x40\xf9')
         .binary_regex_replace(b'\x3e\x00\x80\x52\xe6\xa7\x41\xb9\x66\xeb\xff\x35\xf9\xdb\x40\xf9', b'\x3e\x00\x80\x52\xe6\xa7\x41\xb9\x1f\x20\x03\xd5\xf9\xdb\x40\xf9')
