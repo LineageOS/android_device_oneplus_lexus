@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86581f9c_7d0116e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-02T11:35:50Z",
+      "side": 1,
+      "message": "Provided that all instances of \"Copyright (C)\" are replaced...",
+      "revId": "cab07fc6705ebbeaa29a52a6107fdd93545e389a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
