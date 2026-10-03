@@ -22,8 +22,8 @@ PRODUCT_MODEL := CPH2707
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1779868665197 release-keys" \
-    BuildFingerprint=OnePlus/CPH2707IN/OP6131L1:16/UKQ1.231108.001/V.R4T2.202605221928:user/release-keys \
+    BuildDesc="qssi_64-user 16 BP2A.250605.015 1785900317338 release-keys" \
+    BuildFingerprint=OnePlus/CPH2707IN/OP6131L1:16/UKQ1.231108.001/V.R4T2.25db0a1-faf42-faf4b:user/release-keys \
     DeviceName=OP6131L1 \
     DeviceProduct=CPH2707 \
     SystemDevice=OP5E93L1 \
