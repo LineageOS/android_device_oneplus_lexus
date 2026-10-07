@@ -955,6 +955,9 @@ vendor/gpu/kbc/sequence_manifest.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
+# Horae
+odm/etc/horae/horae_target.conf
+
 # Media
 odm/etc/media_cliffs_v0/video_system_specs.json
 
@@ -984,6 +987,8 @@ odm/lib64/libaiboost_te.so;FIX_SONAME
 # NFC
 odm/etc/nfc/libnfc-mtp-SN220.conf_24881:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_24881:vendor/etc/libnfc-nci.conf
+
+# NFC firmware
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
 
 # OPLUS Display
