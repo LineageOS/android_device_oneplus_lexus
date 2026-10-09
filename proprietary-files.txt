@@ -957,6 +957,7 @@ vendor/gpu/kbc/unified_ksqs.bin
 
 # Horae
 odm/etc/horae/horae_target.conf
+system_ext/etc/horae/horae_SM8635.conf
 
 # Media
 odm/etc/media_cliffs_v0/video_system_specs.json
