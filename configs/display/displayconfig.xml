@@ -280,6 +280,16 @@
             <timeMaxSecs>300</timeMaxSecs>
             <timeMinSecs>60</timeMinSecs>
         </timing>
+        <sdrHdrRatioMap>
+            <point>
+                <sdrNits>2.0</sdrNits>
+                <hdrRatio>8.0</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>500.0</sdrNits>
+                <hdrRatio>1.5</hdrRatio>
+            </point>
+        </sdrHdrRatioMap>
     </highBrightnessMode>
     <autoBrightness enabled="true">
         <brighteningLightDebounceMillis>1500</brighteningLightDebounceMillis>
