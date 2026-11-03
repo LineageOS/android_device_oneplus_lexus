@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<Targets>
+    <Target name="pineapple">
+        <PanelResolution width="1272" height="2800">
+            <ScalingResolution w="1080" h="2376"/>
+        </PanelResolution>
+    </Target>
+</Targets>
