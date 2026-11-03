@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk.vendor
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946292893219971.xml
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946292893219971.xml \
+    $(LOCAL_PATH)/configs/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml
 
 $(call soong_config_set_bool,qtidisplay,legacy_cwb_config,true)
 
