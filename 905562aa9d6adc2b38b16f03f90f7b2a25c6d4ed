@@ -16,6 +16,24 @@
       "message": "why deps disabled?",
       "revId": "905562aa9d6adc2b38b16f03f90f7b2a25c6d4ed",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3246f941_066cb1bc",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 897,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-11-05T20:18:08Z",
+      "side": 1,
+      "message": "depends on android.frameworks.cameraservice.device-V1-ndk.so",
+      "parentUuid": "4076d5c1_f9e768ea",
+      "revId": "905562aa9d6adc2b38b16f03f90f7b2a25c6d4ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
