@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c665d5f1_82d6ecf1",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 959,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-11-05T20:18:22Z",
+      "side": 1,
+      "message": "are you sure this is the right config being loaded for the device? If I’m not wrong, it’s in system_ext/etc/horae/horae_SM8635.conf",
+      "revId": "819ce77a6244eb3c2ce9c1c73acdbff56b850681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
