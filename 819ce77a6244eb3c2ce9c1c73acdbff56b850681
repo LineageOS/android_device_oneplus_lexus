@@ -34,6 +34,24 @@
       "parentUuid": "c665d5f1_82d6ecf1",
       "revId": "819ce77a6244eb3c2ce9c1c73acdbff56b850681",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e5cc8db_e2eecfe4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 959,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-11-07T10:40:59Z",
+      "side": 1,
+      "message": "Okay, but your device doesn’t use it either, so why add it here?",
+      "parentUuid": "b0b4e82b_afe84653",
+      "revId": "819ce77a6244eb3c2ce9c1c73acdbff56b850681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
