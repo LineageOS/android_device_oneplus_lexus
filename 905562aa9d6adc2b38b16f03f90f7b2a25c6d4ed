@@ -70,6 +70,24 @@
       "parentUuid": "ec7f6060_e0aad6a9",
       "revId": "905562aa9d6adc2b38b16f03f90f7b2a25c6d4ed",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b051d8a_720feae4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 897,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-11-07T10:39:16Z",
+      "side": 1,
+      "message": "still that blobs is disable deps",
+      "parentUuid": "98dd8ecd_be95f9cd",
+      "revId": "905562aa9d6adc2b38b16f03f90f7b2a25c6d4ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
