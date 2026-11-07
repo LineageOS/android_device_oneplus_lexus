@@ -16,6 +16,24 @@
       "message": "are you sure this is the right config being loaded for the device? If I’m not wrong, it’s in system_ext/etc/horae/horae_SM8635.conf",
       "revId": "819ce77a6244eb3c2ce9c1c73acdbff56b850681",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0b4e82b_afe84653",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 959,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-11-07T10:36:54Z",
+      "side": 1,
+      "message": "odm library is different from that one",
+      "parentUuid": "c665d5f1_82d6ecf1",
+      "revId": "819ce77a6244eb3c2ce9c1c73acdbff56b850681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
