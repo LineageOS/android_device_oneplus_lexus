@@ -16,6 +16,24 @@
       "message": "Ig soname fix not required",
       "revId": "b0de9962a6cc0e6dc139cfb7eba8522301c02b4a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35ff9aae_1f36570e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 14
+      },
+      "lineNbr": 895,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-11-09T11:12:50Z",
+      "side": 1,
+      "message": "required for lexus blobs.",
+      "parentUuid": "f5c32c1f_d97358b7",
+      "revId": "b0de9962a6cc0e6dc139cfb7eba8522301c02b4a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
