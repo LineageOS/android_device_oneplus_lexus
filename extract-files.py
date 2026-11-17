@@ -48,7 +48,10 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
-        .regex_replace('SystemCamera =  0;  0;  0;  0;  1;', 'SystemCamera =  0;  0;  0;  0;  0;'),
+        .regex_replace('SystemCamera =  0;  0;  0;  0;  1;', 'SystemCamera =  0;  0;  0;  0;  0;')
+        .regex_replace('OpenUltraHighResForXts        = false', 'OpenUltraHighResForXts        = true'),
+    'odm/lib64/hw/camera.oemlayer.so': blob_fixup()
+        .binary_regex_replace(b'\x68\x3e\x44\xb9\x68\x00\x00\x35\x68\x42\x44\xb9', b'\x68\x3e\x44\xb9\x03\x00\x00\x14\x68\x42\x44\xb9'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V7-ndk.so')
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
