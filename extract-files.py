@@ -48,7 +48,11 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
-        .regex_replace('SystemCamera =  0;  0;  0;  0;  1;', 'SystemCamera =  0;  0;  0;  0;  0;'),
+        .regex_replace('SystemCamera =  0;  0;  0;  0;  1;', 'SystemCamera =  0;  0;  0;  0;  0;')
+        .regex_replace('OpenUltraHighResForXts        = false', 'OpenUltraHighResForXts        = true')
+        .regex_replace(r'(\[OemSupportedCustomImageSizes0\]\n(?:    ImageSizes.*\n)*)', r'\1    ImageSizes[13] =  8192; 6144    # 4:3        full size\n'),
+    'odm/lib64/hw/camera.oemlayer.so': blob_fixup()
+        .binary_regex_replace(b'\x68\x3e\x44\xb9\x68\x00\x00\x35\x68\x42\x44\xb9', b'\x68\x3e\x44\xb9\x03\x00\x00\x14\x68\x42\x44\xb9'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V7-ndk.so')
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
@@ -84,6 +88,12 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'vendor/lib64/libcwb_qcom_aidl.so': blob_fixup()
         .add_needed('libui_shim.so'),
+    'vendor/lib64/hw/camera.qcom.sm8650.so': blob_fixup()
+        .binary_regex_replace(b'\x01\x14\x00\x54\xe6\xa7\x41\xb9\xe6\x14\x00\x34\xfb\xdb\x40\xf9', b'\x01\x14\x00\x54\xe6\xa7\x41\xb9\xa7\x00\x00\x14\xfb\xdb\x40\xf9')
+        .binary_regex_replace(b'\x3e\x00\x80\x52\xe6\xa7\x41\xb9\x66\xeb\xff\x35\xf9\xdb\x40\xf9', b'\x3e\x00\x80\x52\xe6\xa7\x41\xb9\x1f\x20\x03\xd5\xf9\xdb\x40\xf9')
+        .binary_regex_replace(b'\x21\x0b\x00\x54\xe9\xa7\x41\xb9\x09\x0c\x00\x34\xf0\x97\x40\xf9', b'\x21\x0b\x00\x54\xe9\xa7\x41\xb9\x60\x00\x00\x14\xf0\x97\x40\xf9')
+        .binary_regex_replace(b'\x3e\x00\x80\x52\xe9\xa7\x41\xb9\x49\xf4\xff\x35\xed\xa3\x40\xf9', b'\x3e\x00\x80\x52\xe9\xa7\x41\xb9\x1f\x20\x03\xd5\xed\xa3\x40\xf9')
+        .binary_regex_replace(b'\x9f\x00\x14\x6b\x60\xd3\x44\x7a\x4b\x00\x00\x54\x6a\x8c\xfe\x34\xf7\x4b\x40\xf9', b'\x9f\x00\x14\x6b\x60\xd3\x44\x7a\x1f\x20\x03\xd5\x63\xf4\xff\x17\xf7\x4b\x40\xf9'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
